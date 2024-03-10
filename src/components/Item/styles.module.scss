@@ -1,0 +1,46 @@
+.item {
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.2s;
+  box-shadow: inset 0px 0px 2px 2px #eeeeee;
+  &:hover {
+    transform: scale(1.02);
+    box-shadow: inset 0px 0px 1px 1px #1c7ed6;
+  }
+}
+
+.id {
+  font-size: 20px;
+  font-weight: 700;
+  & span {
+    font-weight: 500;
+  }
+}
+
+.product {
+  font-size: 16px;
+  font-weight: 700;
+  & span {
+    font-weight: 400;
+  }
+}
+
+.price {
+  font-size: 16px;
+  font-weight: 700;
+  & span {
+    font-weight: 400;
+  }
+}
+
+.brand {
+  font-size: 16px;
+  font-weight: 700;
+  & span {
+    font-weight: 400;
+  }
+}
