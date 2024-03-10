@@ -5,6 +5,9 @@
   color: rgb(94, 150, 252);
   margin-top: 20%;
   flex-grow: 1;
+  @media (max-width: 600px) {
+    font-size: 22px;
+  }
 
   & span {
     display: inline-block;
@@ -12,6 +15,10 @@
     height: 10px;
     border-radius: 50%;
     margin: 0 5px;
+    @media (max-width: 600px) {
+      width: 5px;
+      height: 5px;
+    }
     background-color: rgba(94, 150, 252);
   }
   &_first {

@@ -1,3 +1,6 @@
 .select {
-  width: 300px;
+  flex-grow: 1;
+  @media (max-width: 600px) {
+    width: 100%;
+  }
 }
